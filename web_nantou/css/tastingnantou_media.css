@@ -1,0 +1,341 @@
+@media screen and (max-width:1600px){
+.search{
+	width: 260px;
+	right: 680px;
+}
+.search input{
+	padding: 5px 40px 5px 10px;
+}
+.search_b{
+	right: -45px;
+}
+.nav a{
+	margin: 0 10px;
+}
+}
+@media screen and (max-width:1550px){
+.toggle{
+	display: block;
+	position: fixed;
+	top:15px;
+	right:15px;
+	z-index: 20;
+	background:url(../img/nav.png) no-repeat;
+	background-size: contain;
+	height: 40px;
+	width: 40px;
+}
+.active{
+	background:url(../img/close.png) no-repeat;
+	background-size: contain;
+}
+.top{
+	height: 70px;
+	position: fixed;
+}
+.logo{
+	margin: 12px 0 0 20px;
+	font-size: 25px;
+	line-height: 1.8;
+}
+.search{
+	right: 120px;
+	top: 15px;
+}
+.nav{
+	display: none;
+	position: fixed;
+	right:auto;
+	left: 0;
+	top:70px;
+	height:calc(100% - 70px);
+	width:100%;
+    background: rgba(255,255,255,0.8);
+	margin-top: 0;
+	float: none;
+}
+.nav span{
+	display: none;
+}
+.nav a,.topbut{
+    position: relative;
+	display: block;
+	width: 100%;
+    border-bottom: 1px solid #56B2A5;
+    padding: 15px 0;
+    text-align: center;
+    color: #104D71;
+    margin: 0 auto;
+    border-radius: 0;
+}
+.topbut{
+	font-size: 22px;
+	border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.topbut.tb1{
+	margin-left: 0;
+}
+.topbut.tb2{
+	margin-right: 0;
+}
+.kv{
+	padding-top: 40px;
+}
+.kv,.kvpicout,.kvpic{
+	height: 550px;
+}
+.arr{
+	top: 50%;
+}
+.gototop{
+	right: 1%;
+}
+}
+@media screen and (max-width:1350px){
+.w1300{
+	width: 96%;
+	margin: 0 auto;
+}
+.f_logo{
+	display: block;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+.f_info {
+    margin: 10px auto;
+}
+.slg_pic {
+    background: url(../img/about_m.png) no-repeat center;
+    width: 100%;
+}
+.tag_out > div {
+    padding: 20px 20px 20px 100px;
+}
+.wc_block > div{
+	width: calc(48% - 70px);
+}
+.wc3_block > div {
+    width: 18.5%;
+}
+.wc3_block > span{
+	background: url(../img/icon_arr1.png) no-repeat left;
+	background-size: 100%;
+	width: 10px;
+	margin: 98px 0 0 -5px;
+}
+.tag_out > div.tag1,.tag_out > div.tag1.on, .tag_out > div.tag1:hover {
+    background-position: 10px;
+}
+.wc3_t{
+	width: 98%;
+}
+.s_title {
+    width: 98%;
+}
+.wc_block {
+    width: 98%;
+}
+}
+@media screen and (max-width:1170px){
+.tag_out {
+    padding: 10px 0px 0 0px;
+}
+.tag_out > div {
+    padding: 20px 10px 20px 80px;
+    font-size: 25px;
+    margin: 10px 2px 0 2px;
+}
+.tag_out > div.tag2,.tag_out > div.tag2.on,.tag_out > div.tag2:hover,.tag_out > div.tag3,.tag_out > div.tag3.on,.tag_out > div.tag3:hover{
+	background-position: 0 10px;
+}
+.wc3_block > div {
+	display: block;
+    width: 300px;
+    margin: 0 auto ;
+}
+.wc3_block > span{
+	display: block;
+	background: url(../img/icon_arr1a.png) no-repeat left;
+	width: 53px;
+	height: 20px;
+	margin: -1px auto 5px auto;
+}
+.wc2_tag > div {
+    margin: 60px 10px 40px 10px;
+}
+}
+@media screen and (max-width:980px){
+.kv,.kvpicout,.kvpic{
+	height: 450px;
+}
+.kv_p1{
+	background: url(../img/banner_m.jpg) center no-repeat #C3E3E1;
+	background-size: cover;
+}
+.kv_p2{
+	background: url(../img/banner_m.jpg) center no-repeat #C3E3E1;
+	background-size: cover;
+}
+.kv_p3{
+	background: url(../img/banner_m.jpg) center no-repeat #C3E3E1;
+	background-size: cover;
+}
+.slg_pic {
+    background: url(../img/about_s.png) no-repeat center;
+}
+.wc2_tag > div {
+	width: calc(20% - 18px);
+    margin: 60px 0 40px 0;
+    font-size: 20px;
+}
+.wc_block > div{
+	display: block;
+	width: calc(100% - 70px);
+	margin: 10px 0;
+	min-height: inherit;
+}
+.wc2b .wc_block  > div{
+	min-height: inherit;
+}
+.f_info1 {
+    margin: 10px 0 ;
+}
+.f_info1 span {
+    display: block;
+    margin-bottom: 10px;
+}
+.f_info2 > div {
+    display: block;
+}
+}
+@media screen and (max-width:870px){
+.logo i{
+	display: none;
+}
+.part1 {
+    padding: 50px 0 20px 0;
+}
+.w_cont table {
+    width: 100%;
+}
+.tag_out > div{
+    padding: 65px 10px 10px 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.tag_out > div.tag1{
+	background: url(../img/tag1.png) center top no-repeat;
+	background-position-y: 10px;
+}
+.tag_out > div.tag2{
+	background: url(../img/tag2.png) center top no-repeat;
+	background-position-y: 10px;
+}
+.tag_out > div.tag3{
+	background: url(../img/tag3.png) center top no-repeat;
+	background-position-y: 10px;
+}
+.tag_out > div.tag1.on,.tag_out > div.tag1:hover{
+	background: url(../img/tag1a.png) center top no-repeat #fff;
+	background-position-y: 10px;
+}
+.tag_out > div.tag2.on,.tag_out > div.tag2:hover{
+	background: url(../img/tag2a.png) center top no-repeat #fff;
+	background-position-y: 10px;
+}
+.tag_out > div.tag3.on,.tag_out > div.tag3:hover{
+	background: url(../img/tag3a.png) center top no-repeat #fff;
+	background-position-y: 10px;
+}
+}
+@media screen and (max-width:800px){
+.f_m{
+	display: block;
+}
+.tag_out > div {
+    font-size: 22px;
+}
+.wc2_tag > div{
+    width: calc(20% - 12px);
+	line-height: 1.2;
+	border: 3px solid transparent;
+	border-radius: 15px;
+}
+.wc2_tag > div span{
+	width: 60px;
+	height: 50px;
+	top: -35px;
+	left: calc(50% - 30px);
+}
+.wc2_tag > div i{
+	width: 22px;
+	height: 15px;
+	bottom: -15px;
+	left: calc(50% - 11px);
+}
+}
+@media screen and (max-width:700px){
+.w_cont table tr td:first-child {
+    font-size: 25px;
+    width: fit-content;
+}
+.w_cont table p {
+    font-size: 20px;
+}
+.w_cont table {
+    font-size: 18px;
+}
+.slg_pic {
+    background: url(../img/about_s.png) no-repeat center;
+    background-size: contain;
+}
+}
+@media screen and (max-width:650px){
+html{
+	-webkit-text-size-adjust:none;
+}	
+.tag_out > div.tag1, .tag_out > div.tag2, .tag_out > div.tag3 {
+    font-size: 20px;
+    line-height: 1.2;
+}
+.search {
+    width: 150px;
+}
+.tag_out {
+    padding: 0;
+}
+.tag_out > div {
+    font-size: 20px;
+    padding: 75px 10px 10px 10px;
+    margin: 10px 5px 0 5px;
+}
+.wc2_tag > div {
+    font-size: 16px;
+}
+.wc_block > div {
+    width: calc(100% - 40px);
+	padding: 15px 20px 20px 20px;
+}
+.w_cont {
+    padding: 15px 15px 30px 15px;
+}
+.w_cont table tr td {
+    padding: 30px 2px 0 2px;
+}
+.w_cont,.wc_block > div,.w_cont table{
+    font-size: 16px;
+}
+.wc_block > div p {
+    font-size: 20px;
+}
+.f_info2{
+	font-size: 15px;
+}
+.f_logo {
+    width: 280px;
+    height: 25px;
+    font-size: 24px;
+}
+}
